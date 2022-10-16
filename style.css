@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(22.jpg);
+    margin: 0;
+    padding: 0;
+}
+.first{
+    text-align: center;
+    align-items: center;
+    
+}
+.forbtn{
+    font-size: 2rem;
+   align-items: center;
+   text-align: center;
+background-color: rgb(207, 190, 141);
+position:absolute;
+top: 35% ;
+left:25% ;
+right: 30%;
+font-family: 'Lora', serif;
+font-weight: 700;
+padding: 2px 3px;
+border: 2px solid;
+border-radius: 12px;
+cursor: pointer;
+}
+.forbtn:hover{
+    background-color: rgb(233, 207, 129);
+}
+.qnsection{
+    text-align: center;
+    top:40%;
+    left:25%
+} 
+@media screen and (min-width:1024px){
+    .forbtn{
+        font-size: 1.5rem;
+    }
+}
+.flippy{
+    height:150px;
+    width:200px;
+    margin-top: 150px;
+    margin-left: 60px;
+    left: 60px;
+   
+}
+.para{
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+  margin-right: 300px;
+  width: 300px;
+  background-color: rgb(219, 213, 213);
+  left: 200px;
+  border: 2px solid grey;
+  border-radius: 7px;
+}
+.entry{
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+  margin-right: 20px;
+  font-size: 1.5rem;
+    font-weight: 500;
+    box-sizing: content-box;
+    left: 50px;
+    top: 200px;
+}
+   .bytn{
+   margin-top: 8px;
+   background-color: rgb(59, 59, 158);
+   position: absolute;
+   font-size: 1.5rem;
+   margin-left: -50px;
+   border: 2px solid black;
+   border-radius: 8px;
+   }
+   .bytn:hover{
+    background-color: rgb(84, 84, 158);
+   }
+   .last{
+    width: 350px;
+    margin-left: 5px;
+    margin-top: 170px;
+   }
+   h1{
+    margin-left: 350px;
+    background-color: black;
+    color: white;
+    width: 300px;
+   }
+   .forgen{
+    margin-left: 5px;
+    margin-top: 10px;
+   }
+   hr{
+    background-color: white;
+    border-style: none;
+    border-top: dotted;
+    height: 20px;
+    width: 27%;
+     margin-left: 100px;
+     margin-top: 5px;
+     border-width: 5px;
+   }
+   #section2{
+    display: none;
+   }
+   #section3{
+    display: none;
+   }

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guessing Game</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon (1).ico" />
+  </head>
+  <body>
+    <div id="section1" class="first">
+      <button class="forbtn" onclick="generate_number_btn_click()">
+        Generate Number
+      </button>
+    </div>
+
+    <div id="section2" class="qnsection">
+      <img class="flippy" src="giffy.gif" alt="" />
+      <h3 class="para">"Guess the number between 1 and 6 "</h3>
+      <hr />
+      <form action="name">
+        <input id="field" type="text" placeholder="Enter here" class="entry" />
+        <div class="thebtn">
+          <button class="bytn" onclick="check_number()">CHECK</button>
+        </div>
+      </form>
+    </div>
+
+    <div id="section3">
+      <img src="animated-dice-image-0015.gif" class="last" alt="n" />
+      <h1 class="forgen">Generting Number....</h1>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
